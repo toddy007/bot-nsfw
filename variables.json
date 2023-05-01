@@ -1,0 +1,6 @@
+{
+  "apis": {
+    "hentai": "https://api.waifu.pics/nsfw/",
+    "nightapi": "https://api.night-api.com/images/nsfw/"
+  }
+}
