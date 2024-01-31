@@ -20,3 +20,7 @@ sync('./commands/**/*.js').forEach(command => {
 });
 
 client.login(process.env.TOKEN);
+
+process.on("uncaughtException", async (e) => {
+  console.error(e)
+})
